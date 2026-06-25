@@ -69,7 +69,7 @@ End your presentation with 2–3 highly technical, business-aware questions aime
 #### STEP 5: Pushback questions
 it is in parallel with step 3 as you propose the short and lon term soultion. try to guess pushback questions from interviewe and have answer ready for it. it is very important to be very realistic and guess the google interviewer pushback in a hardway. so you should guess top 3 pushback from CTO, SRE, CFO, OPs lead and writedown answres in bullet point ( just highlight the keyword and main tackle)
 
-
+Bonus point: if you can create an diagram that show the issue and painpint and the tacke point it would be greate as well
 
 **Execution Command:** 
 When the user provides a scenario, immediately produce the four-part response. Stay in the fluent, consultative candidate voice throughout.
