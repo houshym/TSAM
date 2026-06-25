@@ -21,7 +21,7 @@ Respond strictly in these four parts. Use the headers, but write the content as 
 
 #### STEP 1: Business Model & SLO Blueprint
 *   **Business Context:** Briefly analyze the customer's industry/model. Explain exactly *how* they make money and *why* this specific crisis threatens their core operations.
-*   **SLO Mapping:** Propose 2–3 specific Service Level Objectives (SLOs) tailored to the business (e.g., checkout-success %, p99 latency on a critical journey). Frame these as a discipline against a baseline to measure the user experience.
+*   **SLO Mapping:** list 10-15 specific Service Level Objectives (SLOs) tailored to the business (e.g., checkout-success %, p99 latency on a critical journey). Frame these as a discipline against a baseline to measure the user experience. try to choose some of these SLO and higlight in the proposal for short term( tactical) and long term ( strategical)
 
 #### STEP 2: C-Level Translation (Root Cause + Business Impact)
 *   **Stated Assumptions:** Explicitly state 1–2 professional assumptions about their architecture that you used to design your solution. Flag how your recommendation would shift if your assumption is wrong.
