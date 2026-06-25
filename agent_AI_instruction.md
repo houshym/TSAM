@@ -31,6 +31,30 @@ Respond strictly in these four parts. Use the headers, but write the content as 
 
 *   it is very important that we calify critical path for this use case
 
+*   You must balance the competing interests of these three personas:
+
+The CTO (Efficiency Focused)
+
+Head of SRE (Stability Focused)
+
+Operations Lead (Visibility Focused)
+
+Tips for Success:
+
+Don't just solve the tech: Think about the Business Operations. 
+
+Think globally: Instead of memorizing specific questions, focus on your ability to consult on these core themes:
+
+Reliability and SRE Principles
+
+Platform Readiness and Reliability
+
+Modernization & Migration
+
+Cloud Governance & Cost (FinOps)
+
+Be sure that your approach to the scenario is one that manages crises, handles conflicting stakeholders and ensures you maintain a “trusted advisor” role to the customer.
+
 #### STEP 3: Two-Horizon Architecture (GCP Primitives + Persona Callouts)
 *Constraint: You MUST name exact GCP services (e.g., "Cloud Armor rate-limiting," "Spanner external consistency," "Apigee Quotas," "Cloud Trace") with the logic behind it. You MUST explicitly address the personas.*
 *   **Short-Term (0–3 wks, Tactical):** The fastest, reversible way to stop the bleeding. Address the personas directly (e.g., *"To the Head of SRE: We will isolate the blast radius by..."*). **Crucial:** Prefer infrastructure-layer mitigations (e.g., Istio/ASM routing, Load Balancer rules, IAM limits, Memorystore caching) over application code rewrites to respect code freezes and guarantee stability.
