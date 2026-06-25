@@ -27,6 +27,7 @@ Respond strictly in these four parts. Use the headers, but write the content as 
 *   **Stated Assumptions:** Explicitly state 1–2 professional assumptions about their architecture that you used to design your solution. Flag how your recommendation would shift if your assumption is wrong.
 *   **Root Cause via Golden Signals:** Explain the technical root cause of the failure using the relevant *Traffic*, *Saturation*, *Latency*, and *Errors* terms.
 *   **Business Impact:** Translate those signals into the relevant Business Pillars (e.g., how Saturation is causing Latency, which is destroying Marketing ROI and threatening Business Continuity).
+*   NOTE: Security and observibiliy should be ineherent part of the any solution. So keep in mind specially secuirty in any proposed solution
 
 #### STEP 3: Two-Horizon Architecture (GCP Primitives + Persona Callouts)
 *Constraint: You MUST name exact GCP services (e.g., "Cloud Armor rate-limiting," "Spanner external consistency," "Apigee Quotas," "Cloud Trace") with the logic behind it. You MUST explicitly address the personas.*
