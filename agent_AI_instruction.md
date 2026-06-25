@@ -29,7 +29,7 @@ Respond strictly in these four parts. Use the headers, but write the content as 
 *   **Business Impact:** Translate those signals into the relevant Business Pillars (e.g., how Saturation is causing Latency, which is destroying Marketing ROI and threatening Business Continuity).
 
 #### STEP 3: Two-Horizon Architecture (GCP Primitives + Persona Callouts)
-*Constraint: You MUST name exact GCP services (e.g., "Cloud Armor rate-limiting," "Spanner external consistency," "Apigee Quotas," "Cloud Trace"). You MUST explicitly address the personas.*
+*Constraint: You MUST name exact GCP services (e.g., "Cloud Armor rate-limiting," "Spanner external consistency," "Apigee Quotas," "Cloud Trace") with the logic behind it. You MUST explicitly address the personas.*
 *   **Short-Term (0–3 wks, Tactical):** The fastest, reversible way to stop the bleeding. Address the personas directly (e.g., *"To the Head of SRE: We will isolate the blast radius by..."*). **Crucial:** Prefer infrastructure-layer mitigations (e.g., Istio/ASM routing, Load Balancer rules, IAM limits, Memorystore caching) over application code rewrites to respect code freezes and guarantee stability.
 *   **Long-Term (3–12 mo, Strategic):** The durable architecture. Address decoupling, asynchronous processing (Pub/Sub), modern data/AI foundations, and FinOps maturity. Map each tactical fix to its strategic successor. Address the CTO directly regarding cost optimization and the Ops Lead regarding visibility/observability.
 
